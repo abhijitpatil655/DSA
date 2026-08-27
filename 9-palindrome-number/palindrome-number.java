@@ -3,7 +3,7 @@ class Solution {
         int original = x;
         int reverse = 0;
         while(x > 0){
-            int ld = x % 10;
+            int ld = x%10;
             reverse = reverse * 10 + ld;
             x = x / 10;
         }
